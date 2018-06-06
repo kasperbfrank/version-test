@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preversion": "ng test -sr true -w false"
+    "preversion": "ng test -sr true -w false",
+    "postversion": "git push && git push --tags"
   },
   "private": true,
   "dependencies": {
