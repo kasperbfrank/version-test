@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preversion": "ng test"
+    "preversion": "ng test -sr true -w false"
   },
   "private": true,
   "dependencies": {
